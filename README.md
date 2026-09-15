@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Telco Customer Churn Analysis
 
 Analysis of customer churn drivers for a telecom provider, using Python, SQL, R, and Power BI.
@@ -23,3 +24,7 @@ charges, and churn label).
 - [ ] R statistical analysis
 - [ ] EDA / visualization
 - [ ] Power BI dashboard
+=======
+# telco-customer-churn-analysis
+Customer churn analysis for a telecom provider using Python, SQL, R, and Power BI — identifying which customer segments and behaviors drive attrition, based on the IBM/Kaggle Telco Customer Churn dataset.
+>>>>>>> 384570a79cdb1bec051edb61de1bab0f510bf6ad
