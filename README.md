@@ -18,7 +18,7 @@ charges, and churn label).
 
 ## Project Status
 
-- [ ] Data collection
+- [x] Data collection
 - [ ] Cleaning
 - [ ] SQL analysis
 - [ ] R statistical analysis
