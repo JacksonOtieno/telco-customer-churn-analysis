@@ -16,13 +16,20 @@ charges, and churn label).
 2. Does tenure length or contract type predict churn more strongly - where's the "danger zone"?
 3. Do add-on services (tech support, online security, streaming) correlate with retention?
 
+## Stage 1: Findings
+
+- **Overall churn rate:** 26.5%
+- **Contract type:** Month-to-month customers churn at 42.7%, vs 11.3% for one-year and just 2.8% for two-year contracts — a ~15x gap between the extremes.
+- **Tenure:** Churn is highest in the first 12 months (47.4%) and declines steadily with tenure, dropping to 9.5% by 49-72 months. Early tenure is the clearest "danger zone."
+- **Add-on services:** Support/security services (OnlineSecurity, TechSupport) show the strongest retention effect (~2x lower churn with vs without). Entertainment add-ons (StreamingTV, StreamingMovies) show almost no effect on churn.
+
 ## Project Status
 
 - [x] Data collection
-- [ ] Cleaning
+- [x] Cleaning
+- [x] EDA / visualization
 - [ ] SQL analysis
 - [ ] R statistical analysis
-- [ ] EDA / visualization
 - [ ] Power BI dashboard
 
 # telco-customer-churn-analysis
