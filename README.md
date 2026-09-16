@@ -24,13 +24,22 @@ charges, and churn label).
 - **Add-on services:** Support/security services (OnlineSecurity, TechSupport) show the strongest retention effect (~2x lower churn with vs without). Entertainment add-ons (StreamingTV, StreamingMovies) show almost no effect on churn.
 - **Combined risk profile:** Month-to-month customers in their first 12 months churn at 51.4% (vs 26.5% baseline). Within that group, those without TechSupport churn at 50.4% vs 30.7% with it — the single largest actionable segment (2,680 customers).
 
+## Stage 2: Statistical Validation (R)
+
+Chi-square tests confirm all three key drivers are statistically significant (p < 2.2e-16 for all):
+- **Contract type**: X² = 1184.6 (strongest driver)
+- **Tenure group**: X² = 856.1
+- **TechSupport**: X² = 828.2
+
+![Chi-square comparison](dashboard/chi_square_comparison.png)
+
 ## Project Status
 
 - [x] Data collection
 - [x] Cleaning
 - [x] EDA / visualization
 - [x] SQL analysis
-- [ ] R statistical analysis
+- [x] R statistical analysis
 - [ ] Power BI dashboard
 
 # telco-customer-churn-analysis
