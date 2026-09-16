@@ -22,13 +22,14 @@ charges, and churn label).
 - **Contract type:** Month-to-month customers churn at 42.7%, vs 11.3% for one-year and just 2.8% for two-year contracts — a ~15x gap between the extremes.
 - **Tenure:** Churn is highest in the first 12 months (47.4%) and declines steadily with tenure, dropping to 9.5% by 49-72 months. Early tenure is the clearest "danger zone."
 - **Add-on services:** Support/security services (OnlineSecurity, TechSupport) show the strongest retention effect (~2x lower churn with vs without). Entertainment add-ons (StreamingTV, StreamingMovies) show almost no effect on churn.
+- **Combined risk profile:** Month-to-month customers in their first 12 months churn at 51.4% (vs 26.5% baseline). Within that group, those without TechSupport churn at 50.4% vs 30.7% with it — the single largest actionable segment (2,680 customers).
 
 ## Project Status
 
 - [x] Data collection
 - [x] Cleaning
 - [x] EDA / visualization
-- [ ] SQL analysis
+- [x] SQL analysis
 - [ ] R statistical analysis
 - [ ] Power BI dashboard
 
