@@ -24,6 +24,10 @@ charges, and churn label).
 - **Add-on services:** Support/security services (OnlineSecurity, TechSupport) show the strongest retention effect (~2x lower churn with vs without). Entertainment add-ons (StreamingTV, StreamingMovies) show almost no effect on churn.
 - **Combined risk profile:** Month-to-month customers in their first 12 months churn at 51.4% (vs 26.5% baseline). Within that group, those without TechSupport churn at 50.4% vs 30.7% with it — the single largest actionable segment (2,680 customers).
 
+![Churn by Contract Type](dashboard/churn_by_contract.png)
+![Churn by Tenure Group](dashboard/churn_by_tenure.png)
+![Churn by Add-on Services](dashboard/churn_by_services.png)
+
 ## Stage 2: Statistical Validation (R)
 
 Chi-square tests confirm all three key drivers are statistically significant (p < 2.2e-16 for all):
