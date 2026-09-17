@@ -37,6 +37,15 @@ Chi-square tests confirm all three key drivers are statistically significant (p 
 
 ![Chi-square comparison](dashboard/chi_square_comparison.png)
 
+## Stage 3: Power BI Dashboard
+
+Interactive dashboard with KPI cards (Total Customers, Churn Rate, Monthly Revenue at Risk)
+and churn-rate breakdowns by Contract Type, Tenure Group, and TechSupport.
+
+![Dashboard Screenshot](dashboard/dashboard_screenshot.png)
+
+[Full dashboard PDF](dashboard/telco_churn_dashboard.pdf)
+
 ## Project Status
 
 - [x] Data collection
@@ -44,7 +53,7 @@ Chi-square tests confirm all three key drivers are statistically significant (p 
 - [x] EDA / visualization
 - [x] SQL analysis
 - [x] R statistical analysis
-- [ ] Power BI dashboard
+- [x] Power BI dashboard
 
 # telco-customer-churn-analysis
 Customer churn analysis for a telecom provider using Python, SQL, R, and Power BI — identifying which customer segments and behaviors drive attrition, based on the IBM/Kaggle Telco Customer Churn dataset.
